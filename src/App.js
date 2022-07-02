@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {
   BrowserRouter as Router,
   
-  Routes, Route
+  Route, Switch
  
 } from "react-router-dom";
 
 
 import Home from './Pages/Home';
+import Timeline from './Pages/Timeline';
 
 
 function App() {
@@ -18,10 +19,10 @@ function App() {
 
           
 
-            <Routes>
+            <Switch>
           <Route path="/" exact component={Home}/>
-          
-          </Routes>
+          <Route path="/Timeline" exact component={Timeline}/>
+          </Switch>
 
 
 
