@@ -1,5 +1,54 @@
 .homebody{
  
   background-color: #150C21 ;
-  font-family: Roboto, Verdana;
+  
 }
+.maintext1{
+ color: #7363E7 ;
+ background-color: #150C21;
+justify-content: left;
+
+ font-weight: bold;
+ display: inline-block;
+ margin-right: 1%;
+ font-size: 70px;
+
+
+}
+
+.maintext2{
+  color: #ffffff ;
+  background-color: #150C21;
+  
+  font-weight: bold;
+  display: inline-block;
+  font-size: 70px;
+ }
+
+ .textbox1{
+
+  justify-content: left;
+
+ }
+ .wave {
+  display: inline-block;
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+ 
+
