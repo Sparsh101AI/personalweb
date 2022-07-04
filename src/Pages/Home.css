@@ -1,11 +1,11 @@
 .homebody{
- 
-  background-color: #150C21 ;
+ color: #372251;
+  background-color: #372251 ;
   
 }
 .maintext1{
  color: #7363E7 ;
- background-color: #150C21;
+ background-color: #372251;
 justify-content: left;
 
  font-weight: bold;
@@ -18,7 +18,7 @@ justify-content: left;
 
 .maintext2{
   color: #ffffff ;
-  background-color: #150C21;
+  background-color: #372251;
   
   font-weight: bold;
   display: inline-block;
@@ -52,3 +52,46 @@ justify-content: left;
 }
  
 
+.typewrite{
+  
+    color: #359FDB ;
+    justify-content: left;
+    align-items: left;
+    
+    
+    display: inline-block;
+    font-size: 50px;
+   
+}
+
+.changingwords{
+
+  color: #7363E7 ;
+
+justify-content: left;
+
+ font-weight: bold;
+ display: inline-block;
+ margin-right: 1%;
+ font-size: 70px;
+}
+.maintext11{
+  color: #ffffff ;
+  background-color: #372251;
+ justify-content: left;
+ 
+  font-weight: bold;
+  display: inline-block;
+  
+  font-size: 50px;
+ 
+ 
+ }
+
+ .card{
+  background-color: #372251 !important;
+  color: #7637c3;
+  justify-content: left;
+  align-items: left !important;
+  
+ }
