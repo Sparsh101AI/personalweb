@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import Image from 'react-bootstrap/Image'
 
 function HomePage() {
   return (
@@ -33,7 +34,8 @@ function HomePage() {
 
 <br></br>
 <Row>
-<Col>
+
+
       <Card >
       
        
@@ -58,12 +60,34 @@ function HomePage() {
         
       
       </Card>
+      <br></br>
+      <text className="text">Scroll down and dive into my life...</text>
+     
+      
+      <Col>
+      
+  <Card.Img fluid  src="sparsh.png" className="sparshimg"/>
+  
+
+      
       </Col>
-      <Col></Col>
      
 
   
       </Row>
+        <Row className="secondpart">
+        
+        asdasd
+        
+        
+        
+        
+        
+        
+        
+        </Row>
+
+     
 
     </Container>
 

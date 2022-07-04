@@ -95,3 +95,22 @@ justify-content: left;
   align-items: left !important;
   
  }
+
+ .sparshimg{
+  justify-content: right;
+  align-items: right;
+  margin-bottom: 10%;
+  margin-top: -5%;
+  width: 110%;
+ 
+ }
+
+ .text{
+
+  color: #ffffff !important;
+ }
+
+
+ .secondpart{
+  background-color: #ffffff !important;
+ }
