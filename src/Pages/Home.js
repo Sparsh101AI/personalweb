@@ -65,9 +65,9 @@ function HomePage() {
      
       
       <Col>
-      
-  <Card.Img fluid  src="sparsh.png" className="sparshimg"/>
-  
+      <div className="sparshimg">
+  <Card.Img fluid  src="sparsh.png" />
+  </div>
 
       
       </Col>

@@ -97,11 +97,12 @@ justify-content: left;
  }
 
  .sparshimg{
-  justify-content: right;
-  align-items: right;
+  justify-content: center !important;
+  align-items: center !important;
   margin-bottom: 10%;
   margin-top: -5%;
-  width: 110%;
+  width: 100%;
+image-resolution: 100%;
  
  }
 
